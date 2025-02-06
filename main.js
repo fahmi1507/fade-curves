@@ -37,6 +37,7 @@ export function exponential(length, rotation) {
 
 //creating a curve to simulate an S-curve with setValueCurveAtTime.
 export function sCurve(length, rotation) {
+    console.log('s CURVEVEVEE FFFF')
     var curve = new Float32Array(length),
         i,
         phase = (rotation > 0) ? Math.PI/2 : -(Math.PI/2);
